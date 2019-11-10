@@ -1,0 +1,9 @@
+#imageTop{
+  background-image: url("/images/james-barbosa-qOWjDs-77cM-unsplash.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+body{
+  background-color: black;
+}
