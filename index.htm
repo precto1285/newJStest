@@ -13,13 +13,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset=50>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
   <div class="container">
     <!-- Intro Image -->
     <div class="row">
       <div id="imageTop" class="col-lg-12 text-center text-danger py-4">
         <img class="mb-5" src="images/Anarchy.png" alt="anarchy" width="30%" />
-        <h1>Anarchy Turtle</h1>
+        <h1 id="mainTitle">Anarchy Turtle</h1>
       </div>
     </div>
     <!-- Navbar -->
@@ -183,11 +183,10 @@
         </table>
       </div>
     </div>
-    <div id="merchandise" class="mt-5"></div>
     <!-- Merchandise -->
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="jumotron text-center text-white py-5 mb-4">
+    <div id="merchandise" class="row">
+      <div class="col-lg-12 mt-5">
+        <div class="jumbotron text-center text-white py-5 mb-4">
           <h1>Merchandise</h1>
         </div>
       </div>
@@ -252,7 +251,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 mb-5">
         <div class="card">
           <div class="card-header bg-dark text-white">
             <h6>DVD's</h6>
@@ -265,24 +264,46 @@
       </div>
     </div>
     <!-- Join Us -->
-    <div id="joinUs" class="jumbotron mt-5 py-5 text-center text-white">
-      <h1>Join Us</h1>
-      <p>Sign up for to get the latest news, discussions, upcoming shows, and new releases</p>
-      <form>
-        <div class="form-group">
-          <input type="text" class="form-control mb-2" id="name" placeholder="Name">
-          <input type="email" class="form-control mb-2" id="email" placeholder="Email">
-          <input type="submit" class="form-control mb-2 btn btn-danger btn-block" id="submit" value="Submit">
+    <div class="row">
+      <div class="col-lg-12">
+        <div id="joinUs" class="jumbotron mt-5 pt-5 text-center text-white">
+          <h1 class="mt-4">Join Us</h1>
+          <h3 class="text-danger">The Chaos Shell Fan Club</h3>
+          <p>Sign up for to get the latest news, discussions, upcoming shows, and new releases</p>
         </div>
-      </form>
+      </div>
     </div>
+    <form>
+      <div class="form-group">
+        <input type="text" class="form-control mb-2" id="name" placeholder="Name">
+        <input type="email" class="form-control mb-2" id="email" placeholder="Email">
+        <input type="submit" class="form-control mb-2 btn btn-danger btn-block" id="submit" value="Submit">
+      </div>
+    </form>
+
     <!-- Footer -->
     <div class="footer text-center text-white py-3">
-      Copyright &copy; 2020 Anarchy Turtle
-      <br /> contact us: <a href="#">anarchyturtle@gmail.com</a>
+      <div class="row mt-5">
+        <div class="col-lg-12">
+          <h5>Follow Us on:</h5>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-sm-4 mb-3"><a href="https://www.facebook.com" target="_blank"><img
+              src="/images/iconfinder_square-facebook_317727.png" alt="facebook" width="50%"></a></div>
+        <div class="col-sm-4 mb-3"><a href="https://www.twitter.com" target="_blank"><img
+              src="/images/iconfinder_twitter_circle_294709.png" alt="twitter" width="50%"></a></div>
+        <div class="col-sm-4 mb-2"><a href="https://www.instagram.com" target="_blank"><img
+              src="/images/iconfinder_Instagram_1298747.png" alt="instagram" width="50%"></a></div>
+      </div>
+      <img src="/images/Anarchy.png" alt="endPhoto" width="100%">
+    </div>
+    <div class="text-center text-white">
+      <h6>Copyright &copy; 2020 Anarchy Turtle</h6>
+      <p>contact us: <a href="#">anarchyturtle@gmail.com</a></p>
+
     </div>
   </div>
-
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

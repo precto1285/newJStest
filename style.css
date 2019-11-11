@@ -7,6 +7,9 @@
 body{
   background-color: black;
 }
+#mainTitle{
+  text-shadow: black 3px 3px;
+}
 .jumbotron{
   background-color: black;
 }
